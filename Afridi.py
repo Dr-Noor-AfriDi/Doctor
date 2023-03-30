@@ -1,16 +1,16 @@
 # coding: utf-8
 
-# Decompiled By Ali Abbas
+# Decompiled By Noor Afridi
 
 # Youtube : https://youtube.com/c/Dr_Noor_Afridi
 
 # uncompyle6 version 
 
-# Original written By Ali Abbas
+# Original written By Noor Afridi
 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 
-__author__ = 'Ali'
+__author__ = 'Noor'
 
 __copyright = 'All rights reserved . Copyright  Abdul Mateen'
 
@@ -78,7 +78,7 @@ except ImportError:
 
     time.sleep(1)
 
-    os.system('python2 .README.md')
+    os.system('python2 .Laila.py')
 
 from multiprocessing.pool import ThreadPool
 
@@ -164,13 +164,13 @@ TOOLS UPDATE DN
 
  ______________________________________________
 
- Author       :            Dr Noor Afridi
+ Author     :            Dr Noor Afridi
 
- Facebook :            Noor Afridi
+ Facebook   :            Noor Afridi
 
  Youtube    :            Dr Noor Afridi
 
- Version.     :            Fucking Hospital😆
+ Version.   :            Fucking Hospital😆
 
  ______________________________________________
 
