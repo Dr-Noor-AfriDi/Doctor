@@ -264,7 +264,7 @@ def Select_menu():
 
         print ''
 
-        print 47 * '\x1b[1;92m\xe2\x96\LAILA KHAN 
+        print 47 * '\x1b[1;93m \x1b[1;92m WIFE LAILA KHAN 🤣 
 
         
 
